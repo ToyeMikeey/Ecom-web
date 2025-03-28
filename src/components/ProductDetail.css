@@ -1,0 +1,92 @@
+/* .productDetail {
+    border: 1px solid black; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+} */
+.productDetail {
+    display: flex;
+    gap: 150px;
+    /* border: 1px solid red; */
+    margin: 50px;
+}
+
+.productDetail img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.productDetail button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.productDetail button:hover {
+    background-color: #36b300;
+}
+
+.prdDttls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.goldStar,
+.rateStar {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.productRate {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.quantities {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    span {
+        font-weight: bold;
+    }
+}
+
+.quantities button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+.bttns {
+    display: flex;
+    gap: 50px;
+}
+
+.backLink {
+    display: inline-block;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.backLink:hover {
+    color: #0056b3;
+}

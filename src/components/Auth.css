@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.signDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    gap: 30px;
+}
+
+p {
+    cursor: pointer;
+    color: rgb(0, 149, 255);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 400px;
+}
+
+.signDiv button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signDiv button:hover {
+    background-color: #36b300;
+}
+
+.errorMsg {
+    color: red;
+}

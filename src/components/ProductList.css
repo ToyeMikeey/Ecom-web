@@ -1,0 +1,29 @@
+.productList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 1200px) {
+    .productList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .productList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .productList {
+        grid-template-columns: 1fr;
+    }
+}
+
+.productCard:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
